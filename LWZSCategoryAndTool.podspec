@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LWZSCategoryAndTool'
-  s.version          = '0.1.3'
+  s.version          = '0.1.5'
   s.summary          = 'CategoryAndTool Packages'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.3'
 
-  s.source_files = 'LWZSCategoryAndTool/Classes/**/*'
+#  s.source_files = 'LWZSCategoryAndTool/Classes/**/*'
   
   # s.resource_bundles = {
   #   'LWZSCategoryAndTool' => ['LWZSCategoryAndTool/Assets/*.png']
@@ -42,31 +42,32 @@ Pod::Spec.new do |s|
   
   #UIKit
   s.subspec 'UIColor' do |color|
-      color.source_files = '/LWZSCategoryAndTool/Classes/LWZUIKit/UIColor/*.{swift}'
+      color.source_files = 'LWZSCategoryAndTool/Classes/LWZUIKit/UIColor/*.{swift}'
   end
   
   s.subspec 'UIFont' do |font|
-      color.source_files = '/LWZSCategoryAndTool/Classes/LWZUIKit/UIFont/*.{swift}'
+      color.source_files = 'LWZSCategoryAndTool/Classes/LWZUIKit/UIFont/*.{swift}'
+      font.resource = 'LWZSCategoryAndTool/Classes/LWZUIKit/UIFont/Resources/UIFont.bundle'
   end
   
   s.subspec 'UIGestureRecognizer' do |gestureRecognizer|
-      color.source_files = '/LWZSCategoryAndTool/Classes/LWZUIKit/UIGestureRecognizer/*.{swift}'
+      color.source_files = 'LWZSCategoryAndTool/Classes/LWZUIKit/UIGestureRecognizer/*.{swift}'
   end
   
   s.subspec 'UIScrollView' do |scrollView|
-      color.source_files = '/LWZSCategoryAndTool/Classes/LWZUIKit/UIScrollView/*.{swift}'
+      color.source_files = 'LWZSCategoryAndTool/Classes/LWZUIKit/UIScrollView/*.{swift}'
   end
   
   s.subspec 'UITextField' do |textField|
-      color.source_files = '/LWZSCategoryAndTool/Classes/LWZUIKit/UITextField/*.{swift}'
+      color.source_files = 'LWZSCategoryAndTool/Classes/LWZUIKit/UITextField/*.{swift}'
   end
   
   s.subspec 'UITextview' do |textview|
-      color.source_files = '/LWZSCategoryAndTool/Classes/LWZUIKit/UITextview/*.{swift}'
+      color.source_files = 'LWZSCategoryAndTool/Classes/LWZUIKit/UITextview/*.{swift}'
   end
   
   s.subspec 'UIView' do |view|
-      color.source_files = '/LWZSCategoryAndTool/Classes/LWZUIKit/UIView/*.{swift}'
+      color.source_files = 'LWZSCategoryAndTool/Classes/LWZUIKit/UIView/*.{swift}'
   end
   
 end

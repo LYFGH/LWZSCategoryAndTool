@@ -1,0 +1,33 @@
+{
+  "name": "LWZSCategoryAndTool",
+  "version": "0.1.1",
+  "summary": "CategoryAndTool Packages",
+  "description": "CategoryAndTool Packages",
+  "homepage": "https://github.com/LYFGH/LWZSCategoryAndTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LYFGH": "yafei_v5@163.com"
+  },
+  "source": {
+    "git": "https://github.com/LYFGH/LWZSCategoryAndTool.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "9.3"
+  },
+  "source_files": "LWZSCategoryAndTool/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "ReachabilitySwift": [
+
+    ],
+    "HandyJSON": [
+
+    ]
+  }
+}

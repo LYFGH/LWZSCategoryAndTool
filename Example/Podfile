@@ -1,11 +1,16 @@
+source 'https://cdn.cocoapods.org/'
+source 'https://github.com/LYFGH/YFLPodSpecs.git'
+
 use_frameworks!
+
 
 target 'LWZSCategoryAndTool_Example' do
   pod 'LWZSCategoryAndTool', :path => '../'
 
   target 'LWZSCategoryAndTool_Tests' do
     inherit! :search_paths
-
+    
+    
     
   end
 end

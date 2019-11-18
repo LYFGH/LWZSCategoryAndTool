@@ -1,0 +1,31 @@
+PODS:
+  - Alamofire (4.9.1)
+  - HandyJSON (5.0.1)
+  - LWZSCategoryAndTool (0.1.1):
+    - Alamofire
+    - HandyJSON
+    - ReachabilitySwift
+  - ReachabilitySwift (5.0.0)
+
+DEPENDENCIES:
+  - LWZSCategoryAndTool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HandyJSON
+    - ReachabilitySwift
+
+EXTERNAL SOURCES:
+  LWZSCategoryAndTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  LWZSCategoryAndTool: a08790d56951596a8b2af008a4c7f01432338c72
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+
+PODFILE CHECKSUM: f8e6595a6c9f0af906d950036accd41ec866905f
+
+COCOAPODS: 1.8.4

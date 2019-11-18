@@ -1,0 +1,6 @@
+framework module LWZSCategoryAndTool {
+  umbrella header "LWZSCategoryAndTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
